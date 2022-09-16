@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+$height: 40px;
+nav {
+  height: $height;
+  margin-bottom: 12px;
+  ul {
+    height: $height;
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      display: flex;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background-color 0.7s;
+    }
+    li:hover {
+      background-color: #eb2b05;
+    }
+    li a {
+      color: black;      
+
+    }
+  }
+}

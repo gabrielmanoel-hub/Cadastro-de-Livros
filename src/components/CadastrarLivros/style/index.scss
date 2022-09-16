@@ -1,0 +1,83 @@
+form.cadastrarLivros {
+  > div {
+    display: grid;
+    grid-template-rows: 218px;
+    align-items: center;
+    background-color: #b6323259;
+    border: 1px solid rgb(182, 50, 50);
+    height: 293px;
+    max-width: 344px;
+    margin: 12px auto;
+    padding-top: 12px;
+    border-radius: 19px;
+    > div {
+      > div {
+        height: 66px;
+        max-width: 198px;
+        margin: 8px auto 8px auto;
+        position: relative;
+        input[type="text"] {
+          height: 25px;
+          width: 194px;
+          outline: none;
+          border: none;
+          border-radius: 4px;
+          padding-inline-start: 4px;
+        }
+        input[type="text"]:focus {
+          background-color: rgba(182, 50, 50, 0.649);
+          color: white;
+          border: 1px solid white;
+          display: block;
+        }
+        span {
+          font-size: 10px;
+          color: red;
+          width: 198px;
+          font-weight: 1000;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+      .div_isbn {
+        height: 55px;
+      }
+    }
+  }
+  button {
+    position: relative;
+    top: -10px;
+    margin: 0 auto;
+    width: 150px;
+    height: 29px;
+    background-color: #eb2b05;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 454px) {
+  form.cadastrarLivros {
+    > div {
+      max-width: 316px;
+    }
+  }
+}
+@media screen and(min-width: 347px) and (max-width: 348px) {
+  form.cadastrarLivros {
+    > div {
+      > div {
+          div {
+            height: 66px;
+            position: relative;
+          }
+      }
+    }
+  }
+}
+@media screen and(max-width: 320px) {
+  form.cadastrarLivros {
+    margin: 12px 8px;
+  }
+}

@@ -1,0 +1,110 @@
+@keyframes identifier {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.modal {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.469);
+  z-index: 5000;
+  > div {
+    border: 5px solid rgb(182, 50, 50);
+    box-shadow: 0 0 0 10px white;
+    width: 300px;
+    height: 270px;
+    animation: identifier 0.3s;
+    padding: 4px;
+    h1 {
+      text-align: center;
+      color: white;
+    }
+    form {
+      display: grid;
+      grid-template-rows: 57px 58px 58px 42px;
+      div {
+        display: grid;
+        color: white;
+        font-weight: bold;
+        padding-bottom: 16px;
+        input[type="text"] {
+          height: 25px;
+          outline: none;
+          border: none;
+          border-radius: 4px;
+          padding-inline-start: 4px;
+        }
+        input[type="text"]:focus {
+          background-color: rgba(182, 50, 50, 0.649);
+          color: white;
+          border: 1px solid white;
+        }
+      }
+      > button {
+        min-width: 130px;
+        margin: 8px auto;
+        background-color: #eb2b05;
+        color: white;
+        outline: none;
+        border: none;
+        padding: 4px;
+        border-radius: 14px;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      p {
+        font-size: 13px;
+        color: red;
+        font-weight: bold;
+      }
+    }
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 389px) {
+  .model {
+    > div {
+      width: 82%;
+    }
+  }
+}
+@media screen and (max-width: 402px) {
+  .modal {
+    > div {
+      form {
+        justify-content: normal;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 358px) {
+  .modal {
+    > div {
+      form {
+        div {
+          input[type="text"] {
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and(min-width: 348px) and (max-width: 349px) {
+  .modal {
+    > div {
+      width: 82%;
+    }
+  }
+}

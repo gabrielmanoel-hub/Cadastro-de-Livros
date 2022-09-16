@@ -1,0 +1,14 @@
+div {
+  > h1 {
+    text-align: center;
+  }
+  > p {
+    text-align: center;
+  }
+  > a {
+    color: #eb2b05;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+}

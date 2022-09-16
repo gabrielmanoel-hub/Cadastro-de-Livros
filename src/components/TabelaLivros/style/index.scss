@@ -1,0 +1,101 @@
+$table-color: rgb(182, 50, 50);
+h1,
+h2 {
+  text-align: center;
+}
+h2 {
+  margin-top: 20px;
+}
+table {
+  width: 66%;
+  border: 1px solid $table-color;
+  border-collapse: collapse;
+  margin: 20px auto;
+  border-radius: 8px;
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  tr {
+    padding: 4px 0 4px 0;
+    border-bottom: 1px solid $table-color;
+  }
+  tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  tbody {
+    .btns {
+      display: flex;
+      justify-content: space-around;
+      button {
+        background-color: #eb2b05;
+        color: white;
+        outline: none;
+        border: none;
+        padding: 4px;
+        border-radius: 12px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+    tr:last-child {
+      border-bottom: none;
+    }
+  }
+}
+@media (max-width: 1265px) {
+  $column-with: 30%;
+  table {
+    width: 80%;
+  }
+}
+@media (max-width: 1043px) {
+  table {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  table {
+    display: block;
+    width: 90%;
+    padding: 0px 8px 0 8px;
+    tbody,
+    tr,
+    td {
+      display: block;
+      width: 100%;
+    }
+    thead {
+      display: none;
+    }
+    tbody {
+      td {
+        padding: 0;
+        text-align: right;
+
+        span {
+          padding-right: 4px;
+        }
+      }
+      span.btns {
+        display: block;
+
+        button:nth-child(1) {
+          margin-right: 8px;
+        }
+      }
+      td::before {
+        content: attr(title);
+        float: left;
+        padding-left: 4px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  table {
+    width: 90%;
+  }
+}
