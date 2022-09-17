@@ -7,8 +7,6 @@
 
 - [Como iniciar Projeto](#como-iniciar-o-projeto)
 
-- [Como usar](#como-usar)
-
 - [Característica do Projeto](#características)
 
 
