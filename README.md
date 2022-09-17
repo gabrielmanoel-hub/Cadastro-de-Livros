@@ -15,7 +15,7 @@
 
 # Link Para o Projeto
 
-- [Projeto](https://bit.ly/3dmqUC2/)
+- [Projeto](https://exquisite-starburst-189686.netlify.app/)
 
 
 # Tecnologia
