@@ -5,7 +5,7 @@
 
 - [Serviços usados](#serviços-usados)
 
-- [Como iniciar Projeto](#como-iniciar-projeto)
+- [Como iniciar Projeto](#como-iniciar-o-projeto)
 
 - [Como usar](#como-usar)
 
@@ -50,14 +50,6 @@
     $ yarn install
 ```
 
-# Como usar 
-<video   width="920" height="540" autoplay muted >
-    <source src="./videos/2022-09-16 19-10-22.mp4" type="video/mp4">
-</video>
-
-<video width="920" height="540" autoplay muted>
-    <source src="./videos/formErro.mp4" type="video/mp4">
-</video>
 
 
 
