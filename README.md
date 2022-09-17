@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Índice
+- [Tecnologias](#tecnologias-utilizadas-no-projeto)
 
-In the project directory, you can run:
+- [Serviços usados](#serviços-usados)
 
-### `yarn start`
+- [Como iniciar Projeto](#como-iniciar-projeto)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Como usar](#como-usar)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Característica do Projeto](#características)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+# Link Para o Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Projeto](https://bit.ly/3dmqUC2/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Tecnologia
+### Tecnologias utilizadas no projeto
+ - [React-router-dom](https://reactrouter.com/en/v6.3.0/getting-started/overview)
+ - [Sass](https://sass-lang.com/documentation/)
+ - [Reactjs](https://pt-br.reactjs.org/docs/getting-started.html)  
 
-### `yarn eject`
+# Serviços usados
+ - [Netlify](https://app.netlify.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Características
+### Funcionalidades Principais
+ - Tabela Para Cadastrar Livros
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Como iniciar o Projeto
+### Dependências
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+    # Entrar na pasta
+    cd cadastro-de-Livros
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+    # Baixar dependências para o projeto
+    $ npm install
+```
+<p align="center">or</p>
 
-## Learn More
+```bash
+    # Baixar dependências para o pojeto
+    $ yarn install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Como usar 
+<video   width="920" height="540" autoplay muted >
+    <source src="./videos/2022-09-16 19-10-22.mp4" type="video/mp4">
+</video>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<video width="920" height="540" autoplay muted>
+    <source src="./videos/formErro.mp4" type="video/mp4">
+</video>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+ 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
